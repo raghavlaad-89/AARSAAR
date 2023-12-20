@@ -1,0 +1,30 @@
+
+header{
+    min-height: 452px;
+    background-image: url('../../assets/Rectangle 3923.png');
+    background-size: cover;
+    background-position: center;
+    margin-top: 0px;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 0px;
+  }
+
+  .button-container button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .button-container button:hover {
+    background-color: #45a049;
+  }
+  .wrapper {
+    margin-top: 10px;
+  }

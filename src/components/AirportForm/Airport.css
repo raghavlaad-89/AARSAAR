@@ -1,0 +1,36 @@
+
+form {
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  .form-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .form-field button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form-field button:hover {
+    background-color: #45a049;
+  }
+  
