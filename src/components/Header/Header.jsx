@@ -14,15 +14,17 @@ const Header = () => {
     {/* <Navbar /> */}
     <div className='wrapper'>
         
-      <div className="button-container">
-        <button onClick={() => handleOptionChange('Outstation')}>Outstation</button>
-        <button onClick={() => handleOptionChange('Local')}>Local</button>
-        <button onClick={() => handleOptionChange('Airport')}>Airport</button>
-      </div>
+      <div className="form centered-curved-div">
+        <div className="button-container">
+          <button onClick={() => handleOptionChange('Outstation')}>Outstation</button>
+          <button onClick={() => handleOptionChange('Local')}>Local</button>
+          <button onClick={() => handleOptionChange('Airport')}>Airport</button>
+        </div>
 
-      {selectedOption === 'Outstation' && <Outstation />}
-      {selectedOption === 'Local' && <Local />}
-      {selectedOption === 'Airport' && <Airport />}
+        {selectedOption === 'Outstation' && <Outstation />}
+        {selectedOption === 'Local' && <Local />}
+        {selectedOption === 'Airport' && <Airport />}
+      </div>
     </div>
   </header>
 };

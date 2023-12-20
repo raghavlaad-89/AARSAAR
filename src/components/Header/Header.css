@@ -28,3 +28,24 @@ header{
   .wrapper {
     margin-top: 10px;
   }
+
+  .form{
+    background-color: white;
+    display: block;
+    align-items: center;
+    width: 1000px;
+    margin-left: 250px;
+    
+  }
+
+  .curved-div {
+    border-radius: 10px; 
+  }
+
+  .centered-curved-div {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 310px;
+    border-radius: 20px; 
+  }
